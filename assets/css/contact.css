@@ -3,6 +3,9 @@
     padding: 0;
     font-family: sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: black;
     display: grid;
@@ -12,7 +15,7 @@ header{
     font-size: 40px;
     margin-left: 40%;
     font-weight: 800;
-    margin-top: 120px;
+    margin-top: 100px;
     letter-spacing: 2px;
     word-spacing: 10px;
     position: absolute;
@@ -41,6 +44,15 @@ header::before{
     /* background-color: aliceblue; */
     margin-top: 20%;
 }
+.coloum {
+    margin-left: 40px;
+}
+.coloum .heading_field h2{
+    color: white;
+}
+.coloum1 {
+    background-color: aqua;
+} 
 .input_field{
     width: 700px;
     margin-top: 2%;
@@ -56,6 +68,7 @@ header::before{
     color: #6c757d;
     font-weight: 600;
     font-size: 16px;
+    transition: 0.2s ease-in;
     border-bottom: 3px solid #111;
 }
 .input_field input:hover {
@@ -66,3 +79,61 @@ header::before{
     font-weight: 500;
     letter-spacing: 1px;
 }
+.subject_field input{
+    width: 638px;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 38px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(28, 28, 28);
+    color: #6c757d;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 3px solid #111;
+    transition: 0.2s ease-in;
+}
+.subject_field input:hover {
+    border-bottom-color: #009e66;
+    outline: none;
+}
+.textarea textarea {
+    width: 638px;
+    height: 130px;
+    margin-left: 2%;
+    margin-top: 3%;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(28, 28, 28);
+    color: #6c757d;
+    font-weight: 600;
+    font-size: 16px;
+    resize: vertical;
+    border-bottom: 3px solid #111;
+}
+.textarea textarea:hover {
+    transition: 0.2s ease-in;
+    border-bottom-color: #009e66;
+}
+.submit_field button {
+    width: 160px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-top: 4%;
+    margin-left: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #009e66;
+    transition: 0.2s ease-in-out;
+}
+.submit_field button:hover {
+    background-color: #006642;
+}
+
+
