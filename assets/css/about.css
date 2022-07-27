@@ -360,6 +360,17 @@ hr {
     stroke-dashoffset: calc(440 - (440 * 90) / 100);
     stroke: #009e66;
 }
+#percentage6 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+#percentage6 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #009e66;
+}
+#row_2 {
+    margin-left: 110%;
+}
 .text {
     /* margin-top: 30px; */
     position: absolute;
@@ -368,7 +379,7 @@ hr {
     font-weight: 500;
 }
 .skills_field {
-    height: 1000px;
+    height: 1400px;
     margin-left: 10%;
     margin-top: 6%;
     width: 1200px;

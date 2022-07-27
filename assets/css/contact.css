@@ -45,14 +45,12 @@ header::before{
     margin-top: 20%;
 }
 .coloum {
-    margin-left: 40px;
+    margin-left: 8%;
 }
 .coloum .heading_field h2{
+    margin-left: 2%;
     color: white;
 }
-.coloum1 {
-    background-color: aqua;
-} 
 .input_field{
     width: 700px;
     margin-top: 2%;
@@ -135,5 +133,50 @@ header::before{
 .submit_field button:hover {
     background-color: #006642;
 }
-
-
+.coloum1 {
+    margin-left: 4%;
+    max-width: 450px;
+}
+.coloum1 .heading_field2 {
+    margin-left: 2%;
+    color: white;
+}
+.coloum1 .paragraph {
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #9f9f9f;
+    font-weight: 600;
+}
+.contact_content {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.contact_content .icon {
+    width: 60px;
+    height: 270px;
+    /* background-color: yellow; */
+    border-right: 2px solid rgb(73, 71, 71);
+}
+.contact_content i{
+    font-size: 30px;
+    color: #009e66;
+    padding-top: 13px;
+    padding-bottom: 30px;
+}
+.contact_content .icon_content {
+    margin-left: 6%;
+}
+.contact_content .icon_content div {
+    padding-top: 10px;
+    padding-bottom: 22px;
+}
+.contact_content .icon_content h2{
+    font-size: 18px;
+    color: white;
+}
+.contact_content .icon_content span {
+    font-size: 13px;
+    color: #9f9f9f;
+    font-weight: 600;
+}
