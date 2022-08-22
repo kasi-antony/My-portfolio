@@ -117,6 +117,9 @@ header::before{
     position: relative;
     z-index: 1;
 }
+.overlay_content a{
+    margin-left: 5%;
+}
 .overlay_content a i::before {
     content: '';
     position: absolute;
