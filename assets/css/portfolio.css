@@ -24,13 +24,13 @@ body {
 .main_image{
     position: relative;
     margin-top: 40%; 
-    margin-left: 40%;
+    margin-left: 30%;
 }
 .image_2 {
-    left: -170px;
+    left: -100px;
 }
 .image_3 {
-    left: -340px;
+    left: -200px;
 }
 .image{
     position: absolute;
